@@ -15,7 +15,7 @@ Since [Pharo.org](http://Pharo.org) doesn't yet have specific instructions for i
 - Install an X Server for Windows. I used [VcXsrv](https://sourceforge.net/projects/vcxsrv/) mentioned in the instructions [here](https://jaipblog.wordpress.com/2018/01/21/running-linux-gui-apps-on-windows-10/). You must `export DISPLAY=localhost:0` (e.g., in your WSL `~/.bashrc`).
 - Install [Mesa](https://wiki.debian.org/Mesa) with the command `sudo apt install mesa-utils`. This is apparently needed because there are missing libraries for the X11 display used by Pharo. I'm not sure if this is the official dependency, but it worked in my case. For reference, if you don't do this step, you'll get the following message that's somewhat misleading IMO:
 
-  ```terminal
+  ```console
   $ ./pharo-ui
   could not find display driver vm-display-X11; either:
   - check that /home/myusername/pharo-dir/pharo-vm/lib/pharo/5.0-201901051900//vm-display-X11.so exists, or
@@ -25,7 +25,7 @@ Since [Pharo.org](http://Pharo.org) doesn't yet have specific instructions for i
 
 - Install Pharo with ZeroConf command line as below:
 
-  ```terminal
+  ```console
   $ mkdir MyPharo
   $ cd MyPharo/
   $ curl -L https://get.pharo.org/64/ | bash
@@ -34,7 +34,7 @@ Since [Pharo.org](http://Pharo.org) doesn't yet have specific instructions for i
 - Start the X Server on Windows (e.g., XLaunch from the Start menu in Windows 10).
 - Run Pharo and have fun in Ubuntu 18 (WSL)
 
-  ```terminal
+  ```console
   $ ./pharo-ui
   ```
   
