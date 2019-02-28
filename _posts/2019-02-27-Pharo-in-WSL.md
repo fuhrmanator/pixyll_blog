@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pharo in Windows Subsystem for Linux (WSL)
-date: 2019-02-27T00:00:00.000Z
+title: Pharo in WSL
+date: 2019-02-27T12:32:18.000Z
 summary: How to run Pharo in Windows Subsystem for Linux (WSL)
 categories: null
 published: true
