@@ -4,7 +4,7 @@ email:       christopher.fuhrman@gmail.com
 author:      Christopher Fuhrman
 description: "Blog for my activities as a software engineer and professor."
 baseurl:     ""
-url:         "https://fuhrmanator.github.io"
+url:         "https://fuhrmanator.github.io/pixyll_blog"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
