@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Pharo in Windows Subsystem for Linux (WSL)
-date: {}
-summary: This is an empty post to illustrate the pagination component with Pixyll.
-categories: jekyll pixyll
+date: 2014-06-08T11:21:29.000Z
+summary: How to run Pharo in Windows Subsystem for Linux (WSL)
+categories: null
 published: true
 ---
 
